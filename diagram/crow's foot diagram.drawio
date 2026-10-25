@@ -1,0 +1,76 @@
+<mxfile host="app.diagrams.net" pages="3">
+  <diagram name="Halaman-1" id="5gOrc6f1uv0ISXIkIEPo">
+    <mxGraphModel dx="805" dy="504" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="YG1Fa9ZWVPxnHT24JSgG-128" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" value="Users" vertex="1">
+          <mxGeometry height="170" width="160" x="230" y="415" as="geometry">
+            <mxRectangle height="50" width="80" x="220" y="400" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YG1Fa9ZWVPxnHT24JSgG-129" parent="YG1Fa9ZWVPxnHT24JSgG-128" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="id&amp;nbsp; PK&lt;div&gt;nama&lt;/div&gt;&lt;div&gt;email&lt;/div&gt;&lt;div&gt;password&lt;/div&gt;&lt;div&gt;role&lt;/div&gt;&lt;div&gt;created_at&lt;/div&gt;&lt;div&gt;updated_at&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="160" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="YG1Fa9ZWVPxnHT24JSgG-131" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" value="Kategori" vertex="1">
+          <mxGeometry height="130" width="160" x="680" y="435" as="geometry" />
+        </mxCell>
+        <mxCell id="YG1Fa9ZWVPxnHT24JSgG-132" parent="YG1Fa9ZWVPxnHT24JSgG-131" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="&lt;div&gt;id&amp;nbsp; PK&lt;/div&gt;&lt;div&gt;nama_kategori&lt;/div&gt;&lt;div&gt;created_at&lt;/div&gt;&lt;div&gt;updated_at&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="160" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="l9IcOOlg11z-6CssKoVI-1" edge="1" parent="1" source="YG1Fa9ZWVPxnHT24JSgG-135" style="edgeStyle=none;curved=1;rounded=0;curveGeometry=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;fontSize=12;defaultLabelBackgroundColor=page;startSize=8;endSize=8;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="840" y="700.3010752688172" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YG1Fa9ZWVPxnHT24JSgG-135" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" value="Pengaduan" vertex="1">
+          <mxGeometry height="180" width="160" x="360" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="YG1Fa9ZWVPxnHT24JSgG-136" parent="YG1Fa9ZWVPxnHT24JSgG-135" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="&lt;div&gt;id&amp;nbsp; PK&lt;/div&gt;&lt;div&gt;user _id&amp;nbsp; FK&lt;/div&gt;&lt;div&gt;kategori_id&amp;nbsp; FK&lt;/div&gt;&lt;div&gt;pengaduan&lt;/div&gt;&lt;div&gt;foto&lt;/div&gt;&lt;div&gt;status&lt;/div&gt;&lt;div&gt;created_at&lt;/div&gt;&lt;div&gt;updated_at&lt;/div&gt;" vertex="1">
+          <mxGeometry height="130" width="160" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="bdi878N9bJ9Vq7K7SBB8-3" edge="1" parent="1" source="YG1Fa9ZWVPxnHT24JSgG-129" style="edgeStyle=orthogonalEdgeStyle;fontSize=12;html=1;endArrow=ERzeroToOne;startArrow=ERmandOne;rounded=0;defaultLabelBackgroundColor=gap;startSize=8;endSize=8;exitX=-0.01;exitY=0.139;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.008;entryY=0.175;entryDx=0;entryDy=0;entryPerimeter=0;" target="YG1Fa9ZWVPxnHT24JSgG-135" value="">
+          <mxGeometry height="100" relative="1" width="100" x="0.1942" as="geometry">
+            <Array as="points">
+              <mxPoint x="180" y="481.7" />
+              <mxPoint x="180" y="637.5" />
+              <mxPoint x="280" y="637.5" />
+              <mxPoint x="280" y="731.5" />
+            </Array>
+            <mxPoint x="360" y="680" as="sourcePoint" />
+            <mxPoint x="460" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bdi878N9bJ9Vq7K7SBB8-5" edge="1" parent="1" source="YG1Fa9ZWVPxnHT24JSgG-132" style="edgeStyle=orthogonalEdgeStyle;fontSize=12;html=1;endArrow=ERzeroToOne;startArrow=ERmandOne;rounded=0;defaultLabelBackgroundColor=gap;startSize=8;endSize=8;exitX=0;exitY=0.157;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.019;entryY=0.164;entryDx=0;entryDy=0;entryPerimeter=0;" target="YG1Fa9ZWVPxnHT24JSgG-135" value="">
+          <mxGeometry height="100" relative="1" width="100" x="-0.331" as="geometry">
+            <Array as="points">
+              <mxPoint x="680" y="640" />
+              <mxPoint x="650" y="640" />
+              <mxPoint x="650" y="720" />
+              <mxPoint x="620" y="720" />
+              <mxPoint x="620" y="729.5" />
+            </Array>
+            <mxPoint x="580" y="490" as="sourcePoint" />
+            <mxPoint x="460" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Hrq8V4N-xWQYmX2Rt0B8" name="Halaman-2">
+    <mxGraphModel grid="0" page="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="G_dgyL7gWY6Wk78uAOMp" name="Halaman-3">
+    <mxGraphModel dx="749" dy="469" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
